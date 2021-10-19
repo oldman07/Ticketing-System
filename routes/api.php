@@ -21,3 +21,5 @@ use App\Http\Controllers\Requests;
 // });
 
 Route::post('/register', [SiteController::class, 'register']);
+Route::post('/login', [SiteController::class, 'login']);
+
